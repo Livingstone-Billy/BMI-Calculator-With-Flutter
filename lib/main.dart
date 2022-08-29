@@ -16,28 +16,7 @@ class BMIApp extends StatelessWidget{
 class BMICalculator extends StatelessWidget{
 
   List bmiInput = ["0", "1"];
-  //
-  // getHeight(){
-  //   height = "0";
-  //   double floatPointHeight = double.parse(height);
-  //   print(floatPointHeight);
-  //   return floatPointHeight;
-  // }
-  //
-  // getWeight(){
-  //   weight = "0";
-  //   double floatPointWeight = double.parse(weight);
-  //   return floatPointWeight;
-  // }
-  //
-  // void setHeight(String height){
-  //   this.height = height;
-  // }
-  //
-  // void setWeight(String weight){
-  //   this.weight = weight;
-  // }
-
+  
   @override
   Widget build(BuildContext context){
     final heightTextField = Container(
